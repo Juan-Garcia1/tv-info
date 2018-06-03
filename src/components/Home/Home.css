@@ -1,0 +1,23 @@
+#home {
+    width: 90vw;
+    margin: auto
+}
+#tvList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.thumbnail {
+    /* flex: 1; */
+    /* margin: 0 15px 10px; */
+    transition: all .3s;
+}
+.thumbnail img {
+    /* display: block; */
+    object-fit: cover;
+}
+/* .thumbnail:hover {
+    box-shadow: 0 0 30px 0px gray;
+    transform: scale(1.03)
+} */
