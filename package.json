@@ -1,6 +1,6 @@
 {
   "name": "tv-info",
-  "homapage": "https://juan-garcia1.github.io/tv-info",
+  "homapage": "http://juan-garcia1.github.io/tv-info/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
