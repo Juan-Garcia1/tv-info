@@ -27,7 +27,7 @@ class ShowInfo extends Component {
          })
      }
      fetchCast(id) {
-        fetch(`http://api.tvmaze.com/shows/${id}/cast`)
+        fetch(`https://api.tvmaze.com/shows/${id}/cast`)
         .then(resp => resp.json())
         .then(casts => {
             this.setState({ casts })
